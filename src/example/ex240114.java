@@ -1,4 +1,4 @@
-package practice;
+package example;
 
 import java.util.Scanner;
 import java.util.Stack;
