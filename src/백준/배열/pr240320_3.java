@@ -1,4 +1,4 @@
-package practice;
+package practice.배열;
 
 import java.io.BufferedReader;
 import java.io.IOException;
