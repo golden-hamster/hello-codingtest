@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class pr240322_silver2 {
+public class pr240322 {
 
     /**
      * 백준 1406 - 에디터
@@ -30,6 +30,8 @@ public class pr240322_silver2 {
         int commandCounts = Integer.parseInt(br.readLine());
         ListIterator<Character> listIterator = list.listIterator(list.size());
         for (int i = 0; i < commandCounts; i++) {
+//            String command = br.readLine();
+//            char cmd = command.charAt(0):
             String[] command = br.readLine().split(" ");
             char cmd = command[0].charAt(0);
 
@@ -51,6 +53,7 @@ public class pr240322_silver2 {
                     }
                     break;
                 case 'P' :
+//                    char charToAdd = command.charAt(0);
                     char charToAdd = command[1].charAt(0);
                     listIterator.add(charToAdd);
                     break;
